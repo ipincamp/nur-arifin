@@ -1,22 +1,36 @@
 {
-  "name": "orgkom",
-  "version": "0.0.2",
-  "description": "About blogs in computer organization class",
+  "name": "nur-arifin",
+  "version": "0.0.3",
+  "description": "Inside nur-arifin.my.id",
+  "private": true,
+  "author": "ipincamp",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ipincamp/nur-arifin/issues"
+  },
+  "homepage": "https://github.com/ipincamp/nur-arifin#readme",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "nodemon index.js"
   },
+  "engines": {
+    "node": ">=16.18.0",
+    "npm": ">=8.19.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ipincamp/nur-arifin.git"
+  },
   "keywords": [
-    "blogs"
+    "javascript",
+    "nodejs"
   ],
-  "author": "ipincamp",
-  "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.20.1",
     "ejs": "^3.1.8",
-    "express": "^4.18.2",
-    "multer": "^1.4.5-lts.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.20",
     "startbootstrap-clean-blog": "^6.0.8"
   }
