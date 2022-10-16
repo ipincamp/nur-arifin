@@ -4,6 +4,7 @@
   "description": "About blogs in computer organization class",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "nodemon index.js"
   },
   "keywords": [
