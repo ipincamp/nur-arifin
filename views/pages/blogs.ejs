@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include("../partials/head.ejs"); %>
+    <title>Blogs &middot; Nur Arifin</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/files/assets/ico">
+    <link rel="stylesheet" href="/files/styles">
+</head>
+
+<body>
+    <%- include("../partials/navbar.ejs"); %>
+    <%- include("../partials/header.ejs", { bh: "Blogs", bs: "Don't Waste Your Time!", bg: "/files/assets/img/post-bg.jpg" }); %>
+    <div class="container px-4 px-lg-5 no-copy">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+                <div class="post-preview">
+                    <a href="/blogs/221011_ok_t1" draggable="false">
+                        <h2 class="post-title">Tugas - Tugas CPU Yang Membantu Pekerjaan Manusia</h2>
+                        <h3 class="post-subtitle">CPU tasks that help human work</h3>
+                    </a>
+                    <p class="post-meta">
+                        Posted by <a href="#!" draggable="false">Nur Arifin</a> on October 15, 2022
+                    </p>
+                </div>
+                <div class="d-flex justify-content-end mb-4">
+                    <a class="btn btn-primary text-uppercase" href="#!" draggable="false">Older Posts →</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <%- include("../partials/footer.ejs"); %>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/files/script"></script>
+</body>
+
+</html>
